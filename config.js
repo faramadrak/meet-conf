@@ -17,7 +17,7 @@ if (subdomain) {
 config.hosts.muc = 'muc.' + subdomain + 'meet.jitsi';
 config.bosh = '/http-bind';
 
-config.websocket = 'wss://meet2.farakhedmat.com/' + subdir + 'xmpp-websocket';
+config.websocket = 'wss://meet.farakhedmat.com/' + subdir + 'xmpp-websocket';
 
 // Video configuration.
 //
